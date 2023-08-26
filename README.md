@@ -6,13 +6,33 @@ This is a Django app that allows storing user registrations and has a small syst
 
 To run this app, follow these steps:
 
-1. Clone this repository to your computer.
-2. Navigate to the folder of the cloned repository.
-3. Create a virtual environment with the command `python3 -m venv venv`.
-4. Activate the virtual environment with the command `source venv/bin/activate` (Linux/Mac) or `venv\Scripts\activate` (Windows).
-5. Install the dependencies with the command `pip3 install -r requirements.txt`.
-6. Run the database migrations with the command `python3 manage.py migrate`.
-7. Start the development server with the command `python3 manage.py runserver`.
+
+# Enter the folder where the project is
+
+$ cd projecttst
+$ cd projeto_cad_usuarios
+
+# Run the commands to run the app 
+
+$ pip3 install 
+
+# Install Djonga if you don't have it 
+
+$ pip3 install Django
+
+# Creating the initial migrations 
+
+$ python3 manage.py makemigrations
+
+# Checking our beautiful database 
+
+$python3 manage.py migrate
+
+# Starting our NASA server 
+
+$ python3 manage.py runserver
+
+
 
 Now you can access the app at `http://localhost:8000`.
 
