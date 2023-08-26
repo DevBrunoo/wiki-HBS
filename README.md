@@ -1,34 +1,34 @@
-# Meu Aplicativo Django
+# My Django App
 
-Este é um aplicativo Django que permite o armazenamento de cadastros de usuários e possui um pequeno sistema.
+This is a Django app that allows storing user registrations and has a small system.
 
-## Como executar
+## How to run
 
-Para executar este aplicativo, siga os seguintes passos:
+To run this app, follow these steps:
 
-1. Clone este repositório para o seu computador.
-2. Navegue até a pasta do repositório clonado.
-3. Crie um ambiente virtual com o comando `python -m venv venv`.
-4. Ative o ambiente virtual com o comando `source venv/bin/activate` (Linux/Mac) ou `venv\Scripts\activate` (Windows).
-5. Instale as dependências com o comando `pip install -r requirements.txt`.
-6. Execute as migrações do banco de dados com o comando `python manage.py migrate`.
-7. Inicie o servidor de desenvolvimento com o comando `python manage.py runserver`.
+1. Clone this repository to your computer.
+2. Navigate to the folder of the cloned repository.
+3. Create a virtual environment with the command `python3 -m venv venv`.
+4. Activate the virtual environment with the command `source venv/bin/activate` (Linux/Mac) or `venv\Scripts\activate` (Windows).
+5. Install the dependencies with the command `pip3 install -r requirements.txt`.
+6. Run the database migrations with the command `python3 manage.py migrate`.
+7. Start the development server with the command `python3 manage.py runserver`.
 
-Agora você pode acessar o aplicativo em `http://localhost:8000`.
+Now you can access the app at `http://localhost:8000`.
 
-## Como usar
+## How to use
 
-Para usar este aplicativo, siga os seguintes passos:
+To use this app, follow these steps:
 
-1. Acesse a página inicial em `http://localhost:8000`.
-2. Clique no link para criar uma nova conta.
-3. Preencha os campos com as informações do usuário e clique em "Salvar".
-4. O usuário será adicionado ao sistema e você poderá visualizá-lo na lista de usuários.
+1. Access the home page at `http://localhost:8000`.
+2. Click on the link to create a new account.
+3. Fill in the fields with the user information and click "Save".
+4. The user will be added to the system and you can view it in the list of users.
 
-## Contribuindo
+## Contributing
 
-Se você deseja contribuir para este projeto, sinta-se à vontade para enviar um pull request.
+If you want to contribute to this project, feel free to send a pull request.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a licença MIT.
+This project is licensed under the MIT license.
