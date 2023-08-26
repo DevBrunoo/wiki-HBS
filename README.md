@@ -27,7 +27,7 @@ $ python3 manager.py makemigrations
 
 # Checking our beautiful database
 
-$python3 manager.py migrate
+$ python3 manager.py migrate
 
 # Starting our NASA server
 
